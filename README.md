@@ -21,8 +21,12 @@ $ python format_price.py 12332.98
 3. Running tests
 ```bash
 $ python tests.py
-```
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
 
+OK
+```
 
 # Project Goals
 
