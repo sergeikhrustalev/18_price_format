@@ -10,13 +10,9 @@ def format_price(price):
     if price < 0:
         return
 
-    price = str(int(round(price)))
+    price = int(round(price))
 
-    price = price[::-1]
-
-    price = ' '.join(price[char:char+3] for char in range(0, len(price), 3))
-
-    price = price[::-1]
+    price = '{0:,}'.format(price).replace(',', ' ')
 
     return price
 
