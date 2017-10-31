@@ -1,6 +1,6 @@
 # Price Formatter
 
-Script format_price.py contains a function format_price.  
+Module format_price.py contains a function format_price.  
 It function can be usefull for prettify price value.
 
 # How to use
