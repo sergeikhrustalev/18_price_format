@@ -18,7 +18,9 @@ price_value = format_price('132.33')
 $ python format_price.py 12332.98
 12 333
 ```
-3. Running tests
+
+# Running tests
+
 ```bash
 $ python tests.py
 .......
