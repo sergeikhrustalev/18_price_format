@@ -12,9 +12,7 @@ def format_price(price):
 
     price = int(round(price))
 
-    price = '{0:,}'.format(price).replace(',', ' ')
-
-    return price
+    return '{0:,}'.format(price).replace(',', ' ')
 
 
 if __name__ == '__main__':
